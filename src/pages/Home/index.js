@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 import WalletList from '../../components/WalletList';
 import { numberFormat } from '../../Util'
 
-const index = () => {
+const Index = () => {
   const { dataStore } = useStore()
   const [form] = Form.useForm();
   const [choice, setChoice] = useState(1)
@@ -134,4 +134,4 @@ const index = () => {
   ))
 }
 
-export default index
+export default Index
